@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  letter-spacing: 8px;
+  font-size: 40px;
+  opacity: 0;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.stat {
+  opacity: 0;
+}
+
+.hero-img {
+  width: 280px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.next {
+  height: 100vh;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
